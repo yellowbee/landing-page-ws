@@ -9,7 +9,7 @@ const service = {
 
     const queryBody = {
         appid: config.submail.appid,
-        to: config.submail.toDavid,
+        to: config.submail.toBruce,
         signature: config.submail.appkey,
         content: `【智虎】- 电话为 ${req.body.mobile} 姓名为 ${req.body.name} 的客户留言: ${req.body.comment}`
     };
